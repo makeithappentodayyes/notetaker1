@@ -1,7 +1,7 @@
 {
   "name": "notetaker1",
   "version": "1.0.0",
-  "description": "note taker with express",
+  "description": "not taking app",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
@@ -11,9 +11,10 @@
     "url": "git+https://github.com/makeithappentodayyes/notetaker1.git"
   },
   "keywords": [
-    "express.js",
-    "passport.js",
-    "mongodb"
+    "note",
+    "app",
+    "express",
+    "node.js"
   ],
   "author": "Daniel",
   "license": "ISC",
@@ -22,7 +23,6 @@
   },
   "homepage": "https://github.com/makeithappentodayyes/notetaker1#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "mongoose": "^5.8.7"
   }
 }
