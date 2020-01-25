@@ -1,10 +1,10 @@
 {
   "name": "notetaker1",
   "version": "1.0.0",
-  "description": "not taking app",
-  "main": "index.js",
+  "description": "note app",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -13,8 +13,8 @@
   "keywords": [
     "note",
     "app",
-    "express",
-    "node.js"
+    "with",
+    "express"
   ],
   "author": "Daniel",
   "license": "ISC",
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/makeithappentodayyes/notetaker1#readme",
   "dependencies": {
-    "mongoose": "^5.8.7"
+    "chalk": "^3.0.0",
+    "validator": "^12.1.0",
+    "yargs": "^15.1.0"
   }
 }
